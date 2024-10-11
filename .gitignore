@@ -4,3 +4,6 @@ process_feedback.php
 feedback_db.db
 style.css
 style.css
+view_feedback.php
+feedback_active_feedback.php
+feedback_db.db.lnk
