@@ -3,20 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mundo tecnológico</title>
+    <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
-    <div class="form-container">
-        <h1>Deixe seu Feedback</h1>
-        <form action="process_feedback.php" method="post">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="feedback">Feedback:</labe><br>
-            <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </div> 
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="img/1_Tecnologia para Todos.png" style="width:100%">
+            <div class="text">Tecnologia para Todos</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/2_O que é Inclusão Digital_.png" style="width:100%">
+            <div class="text">O que é Inclusão Digital</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/3_Benefícios da Inclusão Digital.png" style="width:100%">
+            <div class="text">Benefícios da Inclusão Digital</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/4_Desafios da Inclusão Digital.png" style="width:100%">
+            <div class="text">Desafios da Inclusão Digital</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/5_Iniciativas Governamentais.png" style="width:100%">
+            <div class="text">Iniciativas Governamentais</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/6_Ações da Sociedade Civil.png" style="width:100%">
+            <div class="text">Ações da Sociedade Civil</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/7_Papel do Setor Privado.png" style="width:100%">
+            <div class="text">Papel do Setor Privado</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/8_Próximos Passos.png" style="width:100%">
+            <div class="text">Próximos Passos</div>
+        </div>
+        <!-- Botões de navegação -->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+    <div class="feedback-link">
+        <a href="feedback.html">Ir para a página de feedback</a>
+    </div>
+    <script src="script.js"></script>
 </body>
+</html>

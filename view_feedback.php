@@ -1,6 +1,6 @@
 <?php
 
-$servername = "127.0.0.1";
+$servername = "10.0.62.47";
 $username = "root";
 $password = "";
 $database = "feedback_db";
